@@ -10,7 +10,7 @@ const colorDeconstructor = require('./color-deconstructor.js')
 let input = getInput(0);
 let input2 = getInput(1);
 
-//  prints message stating if not given a value 
+//  prints message stating if not given any values 
 if(input === undefined && input2 === undefined){
   console.log("You need at least one value")
 }//prints colorCombinator message of both being two colors
